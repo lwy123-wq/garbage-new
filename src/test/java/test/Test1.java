@@ -21,6 +21,6 @@ public class Test1 {
     @Test
     public void testTx() {
         User user=new User("aaa","11");
-       userDao.insertUser(user);
+        userDao.insertUser(user);
     }
 }
