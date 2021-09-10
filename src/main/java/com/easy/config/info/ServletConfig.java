@@ -13,7 +13,6 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import java.util.List;
 
 @Configuration
-@EnableWebMvc
 @ComponentScan(basePackages = "com.easy")
 public class ServletConfig implements WebMvcConfigurer {
     //处理页面路径
